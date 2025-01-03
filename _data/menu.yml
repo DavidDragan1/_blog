@@ -1,0 +1,64 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: About
+    entries:
+      - title: Follow me on twitter.
+        url: https://twitter.com/gzalejo
+      - title: Github Profile
+        url: https://github.com/alejogtz
+
+  - title: recent posts
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
+
+  - title: Linux
+    post_list:
+      category: linux
+      show_more: true
+      show_more_text: See more posts...
+      show_more_url: linux-archive.html
+
+  - title: Algorithms
+    post_list:
+      category: algorithms
+      show_more: true
+      show_more_text: See more posts...
+      show_more_url: example2-archive.html
+
+  - title: Tutorials
+    post_list:
+      category: tutorials
+      show_more: true
+      show_more_text: See more posts...
+      show_more_url: tutorials-archive.html
+
+  - title: Resources
+    post_list:
+      category: chuletas
+      show_more: true
+      show_more_text: See more posts...
+      show_more_url: example2-archive.html
+
+  - title: Software Architecture
+    post_list:
+      category: architecture
+      show_more: true
+      show_more_text: See more posts...
+      show_more_url: example2-archive.html
+
+  # - title: Tutorials
+  #   entries:
+  #     - title: with subitems
+  #       entries:
+  #         - title: with subsubitems
+  #         - title: example page
+  #           url: about  
+
+  - title: rss
+    url: feed.xml
+  
