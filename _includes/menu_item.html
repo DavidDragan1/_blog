@@ -1,14 +1,13 @@
-<span class="list__item-col hover-effect hover-effect--cursor-square">
-  <ul>
-    {%-for item in include.collection-%}
-      <li>
-      {%- if item.url -%}
-        <a href="{{ item.url }}">{{ item.title }}</a>
-      {%- else -%}
-        {{ item.title }}
-      {%- endif -%}
-      </li>
 
+  <ul>
+      {%-for item in include.collection-%}
+        <li>
+            {%- if item.url -%}
+              <a href="{{ item.url }}">{{ item.title }}</a>
+            {%- else -%}
+              {{ item.title }}
+            {%- endif -%}
+        </li>
       {%-if item.post_list-%}
         {%
           include post_list.html
@@ -25,4 +24,3 @@
       {%-endif-%}
     {%-endfor-%}
   </ul>
-</span>

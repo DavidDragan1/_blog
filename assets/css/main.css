@@ -1,0 +1,338 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+:root {
+	font-size: 16px;
+	--page-padding: 2rem;
+	--color-text: white;
+	--color-bg: black;
+	--color-link: magenta;
+	--color-link-hover: blue;
+	--color-list-item: magenta;
+	--color-title: white;
+	--color-number: #000;
+  --color-bg-effect: white;
+  --blendmode-effect: difference;
+  --bg-blur: 0px;
+  --font-size-list-item: 18px;
+}
+
+body {
+	margin: 0;
+	color: var(--color-text);
+	font-family: "JetBrains Mono", monospace;
+	font-weight: 300;
+	font-optical-sizing: auto;
+	text-transform: lowercase;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	min-height: 100vh;
+}
+
+/* body::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-image: repeating-linear-gradient(transparent, transparent 2px, #0000003d 3px);
+	background-size: auto 100%;
+	pointer-events: none;
+} */
+
+
+a {
+	text-decoration: none;
+	color: var(--color-link);
+	outline: none;
+	cursor: pointer;
+}
+
+a:hover {
+	text-decoration: none;
+	color: var(--color-link-hover);
+	outline: none;
+}
+
+/* Better focus styles from https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible */
+a:focus {
+	/* Provide a fallback style for browsers
+	 that don't support :focus-visible */
+	outline: none;
+}
+
+a:focus-visible {
+	/* Draw a very noticeable focus style for
+	 keyboard-focus on browsers that do support
+	 :focus-visible */
+	outline: 2px solid red;
+}
+
+
+
+.content {
+	display: flex;
+	flex-direction: column;
+	padding: 0 var(--page-padding) 2rem;
+	justify-content: center;
+}
+
+
+.spacer {
+	margin-top: 15vh;
+}
+
+.list {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	counter-reset: item 0;
+}
+
+.list__item {
+	font-size: var(--font-size-list-item);
+	cursor: pointer;
+	width: 100%;
+	display: grid;
+	color: var(--color-list-item);
+	grid-column-gap: 2rem;
+	padding: 0.5rem 0;
+	grid-template-columns: 100%;
+	justify-content: space-between;
+	align-items: start;
+	justify-items: start;
+}
+
+/* .list__item::before {
+	color: var(--color-number);
+  content: counter(item, decimal-leading-zero);
+  counter-increment: item;
+  font-weight: 500;
+  padding: 3px 3px 0;
+	line-height: 0.8;
+}
+
+.list--alt .list__item::before {
+  content: "EVT#" counter(item, decimal-leading-zero) "0";
+}
+
+.list__item-col {
+	flex: none;
+	padding: 3px 3px 0;
+	line-height: 0.8;
+} */
+
+.hover-effect .word {
+  white-space: nowrap;
+}
+
+.hover-effect .char {
+  position: relative
+}
+
+.hover-effect {
+  font-kerning: none;
+  position: relative;
+  white-space: nowrap;
+}
+
+.hover-effect--cursor-square .char {
+  --opa: 0;
+}
+
+.hover-effect--cursor-square .char::after {
+	content: '';
+	width: 1ch;
+	top: 0;
+	left: 0;
+	position: absolute;
+	opacity: var(--opa);
+}
+
+.hover-effect--cursor-square .char::after {
+  background: currentColor;
+  height: 100%;
+}
+
+.hover-effect--bg,
+.hover-effect--bg-south {
+  --anim: 0;
+}
+
+.hover-effect--bg::after,
+.hover-effect--bg-south::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: calc(100% + 3px);
+	top: 0;
+	background-color: var(--color-bg-effect);
+	/* mix-blend-mode: var(--blendmode-effect); */
+	-webkit-backdrop-filter: blur(var(--bg-blur));
+	backdrop-filter: blur(var(--bg-blur));
+  transform-origin: 0% 50%;
+	transform: scaleX(var(--anim));
+}
+
+.hover-effect--bg-south::after {
+	z-index: -1;
+	left: -8px;
+	right: -8px;
+	top: -8px;
+	bottom: -8px;
+	border-radius: 2px;
+	height: auto;
+	width: auto;
+	transform-origin: 50% 100%;
+	transform: scaleY(var(--anim));
+}
+
+
+
+
+/* -------------- THEME SWITCHER -------------- */
+body[a="dark"] {
+  filter: invert(1);
+}
+
+body[a="dark"] img {
+  filter: invert(1);
+}
+
+body[a="dark"] img.ioda {
+  filter: invert(0);
+}
+
+@media (prefers-color-scheme: dark) {
+  body[a="auto"] {
+    filter: invert(1);
+  }
+}
+/* -------------------------------------------- */
+
+/* bg color is also needed in html in order to
+ * block body's background propagation
+ * see: https://stackoverflow.com/a/61265706
+ */
+html, body {
+  background: white;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  color: black;
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0;
+  min-height: 100%;
+  overflow-wrap: break-word;
+}
+
+.post-meta {
+  text-align: right;
+}
+
+h2, h3, h4, h5, h6 {
+  margin-top: 3rem;
+}
+
+hr {
+  margin: 2rem 0;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+/* li { margin: 0.4rem 0; } */
+
+*:target {
+  background: yellow;
+}
+
+.w {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+hr {
+  text-align: center;
+  border: 0;
+}
+
+hr:before {
+  content: '-----';
+}
+
+hr:after {
+  content: attr(data-content) '-----';
+}
+
+table {
+  width: 100%;
+}
+
+table, th, td {
+  border: thin solid black;
+  border-collapse: collapse;
+  padding: 0.4rem;
+}
+
+code {
+  color: white;
+  background: black;
+}
+
+div.highlighter-rouge code {
+  display: block;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  padding: 1rem;
+}
+
+blockquote {
+  font-style: italic;
+  border: thin solid black;
+  padding: 1rem;
+}
+
+blockquote p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+
+/* 
+li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+*/
+
+/* li:before {
+  content: "/";
+  padding-right: 5px;
+} */
