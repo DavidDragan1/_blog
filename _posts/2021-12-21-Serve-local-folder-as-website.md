@@ -55,7 +55,7 @@ Unzip the zip
 	$ unzip nginx.zip -d ./server/ ; mv server/nginx-1.20.1 server/html
 	$ tree -L 2 ser
 	.
-	├── conf
+	|-- conf
 	│   ├── fastcgi.conf
 	│   ├── fastcgi_params
 	│   ├── koi-utf

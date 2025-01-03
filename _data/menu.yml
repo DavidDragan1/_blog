@@ -1,55 +1,54 @@
-# For documentation on this file, see:
-# https://github.com/riggraz/no-style-please#customize-the-menu
+
 
 entries:
   - title: About
     entries:
-      - title: Follow me on twitter.
-        url: https://twitter.com/gzalejo
-      - title: Github Profile
+      - title: Follow me nowhere
+        url: https://www.logoffmovement.org/
+      - title: Github
         url: https://github.com/alejogtz
 
-  - title: recent posts
+  - title: Latest Posts
     post_list:
       limit: 5
       show_more: true
       show_more_text: See archive...
       show_more_url: archive.html
 
-  - title: Linux
+  - title: Projects
     post_list:
-      category: linux
+      category: projects
       show_more: true
       show_more_text: See more posts...
-      show_more_url: linux-archive.html
+      show_more_url: proj-archive.html
 
-  - title: Algorithms
+  - title: Musings
     post_list:
-      category: algorithms
+      category: musings
       show_more: true
       show_more_text: See more posts...
-      show_more_url: example2-archive.html
+      show_more_url: muse-archive.html
 
-  - title: Tutorials
-    post_list:
-      category: tutorials
-      show_more: true
-      show_more_text: See more posts...
-      show_more_url: tutorials-archive.html
+  # - title: Tutorials
+  #   post_list:
+  #     category: tutorials
+  #     show_more: true
+  #     show_more_text: See more posts...
+  #     show_more_url: tutorials-archive.html
 
-  - title: Resources
-    post_list:
-      category: chuletas
-      show_more: true
-      show_more_text: See more posts...
-      show_more_url: example2-archive.html
+  # - title: Resources
+  #   post_list:
+  #     category: chuletas
+  #     show_more: true
+  #     show_more_text: See more posts...
+  #     show_more_url: example2-archive.html
 
-  - title: Software Architecture
-    post_list:
-      category: architecture
-      show_more: true
-      show_more_text: See more posts...
-      show_more_url: example2-archive.html
+  # - title: Software Architecture
+  #   post_list:
+  #     category: architecture
+  #     show_more: true
+  #     show_more_text: See more posts...
+  #     show_more_url: example2-archive.html
 
   # - title: Tutorials
   #   entries:

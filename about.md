@@ -2,7 +2,9 @@
 layout: page
 title: About
 ---
+# About This Blog
+Welcome to a space where ideas take shape, merge, and evolve. Here, you'll find a blend of computer science explorations, philosophical musings, and creative experiments—each post a step in my journey of learning and discovery. Whether it's a weekend code sprint, reflections on timeless wisdom, or a deep dive into new technologies, this blog is about the joy of understanding and building.
 
-This is an example page!
+I hope you enjoy this new minimal terminal-stlye approach - a departure I saw necessary from the old rather pretentious form of this blog. This, above all, is a space for sharing ideas. Thanks for reading.
 
-It's very similar to a `post` layout, with the only difference that the publish date is not shown!
+David Dragan, 03/01/2025.
