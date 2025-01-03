@@ -55,8 +55,8 @@ hr {
   text-align: center;
   border: 0;
 
-  &:before { content: '/////' }
-  &:after { content: attr(data-content) '/////' }
+  &:before { content: '-----' }
+  &:after { content: attr(data-content) '-----' }
 }
 
 table { width: 100%; }
@@ -91,4 +91,20 @@ img {
   max-width: 100%;
   display: block;
   margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+li:before {
+  content: ">";
+  padding-right: 5px;
 }

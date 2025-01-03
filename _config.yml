@@ -4,8 +4,7 @@ email: daviddragan377@@gmail.com
 url: daviddragan1.github.io/_blog/ # root address of the site
 baseurl: # subpath of the site, e.g. "/blog" (leave it blank "" if site shouldn't use a subpath)
 description: >
-  Welcome, this blog is an outlet of my musings and programming projects. 
-  Hope you find something useful in some capacity.
+  Welcome, this blog is an outlet of my musings and programming projects.
 
 permalink: /:slug.html
 
@@ -16,7 +15,7 @@ remote_theme: riggraz/no-style-please # if you are using GitHub Pages, change it
 
 theme_config:
   appearance: "auto" # can be "light", "dark" or "auto"
-  back_home_text: ".." # customize text for homepage link in post layout
+  back_home_text: "\.." # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted
   show_description: false # show blog description in home page
 
