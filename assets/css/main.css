@@ -30,6 +30,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	min-height: 100vh;
+	overflow: none !important;
 }
 
 /* body::after {
@@ -97,18 +98,18 @@ a:focus-visible {
 }
 
 .list__item {
-	font-size: var(--font-size-list-item);
-	cursor: pointer;
-	width: 100%;
-	display: grid;
-	color: var(--color-list-item);
-	grid-column-gap: 2rem;
-	padding: 0.5rem 0;
-	grid-template-columns: 100%;
-	justify-content: space-between;
-	align-items: start;
-	justify-items: start;
+  font-size: var(--font-size-list-item);
+  cursor: pointer;
+  color: var(--color-list-item);
+  display: flex; /* Make the item a flex container */
+  flex-wrap: wrap; /* Allow items to wrap to a new line */
+  padding: 0.5rem 0;
+  width: 100%; /* Ensure the item takes up the full container width */
+  justify-content: space-between; /* Optional, to space out content inside each list item */
+  align-items: center; /* Optional, to vertically center content */
 }
+
+
 
 /* .list__item::before {
 	color: var(--color-number);
@@ -122,12 +123,12 @@ a:focus-visible {
 .list--alt .list__item::before {
   content: "EVT#" counter(item, decimal-leading-zero) "0";
 }
-
+  
 .list__item-col {
 	flex: none;
 	padding: 3px 3px 0;
 	line-height: 0.8;
-} */
+}
 
 .hover-effect .word {
   white-space: nowrap;
@@ -175,7 +176,7 @@ a:focus-visible {
 	height: calc(100% + 3px);
 	top: 0;
 	background-color: var(--color-bg-effect);
-	/* mix-blend-mode: var(--blendmode-effect); */
+	mix-blend-mode: var(--blendmode-effect);
 	-webkit-backdrop-filter: blur(var(--bg-blur));
 	backdrop-filter: blur(var(--bg-blur));
   transform-origin: 0% 50%;
@@ -195,7 +196,7 @@ a:focus-visible {
 	transform: scaleY(var(--anim));
 }
 
-
+*/
 
 
 /* -------------- THEME SWITCHER -------------- */
@@ -337,3 +338,9 @@ li {
   padding-right: 5px;
 } */
 
+@media (max-width: 530px) {
+	:root {
+	  --page-padding: 20px;
+	}
+  }
+  

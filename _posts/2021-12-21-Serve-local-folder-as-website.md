@@ -1,6 +1,6 @@
 ---
 layout: post
-category: chuletas
+category: tutorials
 slug: Fast ways to run local folder as website
 ---
 

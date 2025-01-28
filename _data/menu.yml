@@ -29,12 +29,12 @@ entries:
       show_more_text: See more posts...
       show_more_url: muse-archive.html
 
-  # - title: Tutorials
-  #   post_list:
-  #     category: tutorials
-  #     show_more: true
-  #     show_more_text: See more posts...
-  #     show_more_url: tutorials-archive.html
+  - title: Tutorials
+    post_list:
+      category: tutorials
+      show_more: true
+      show_more_text: See more posts...
+      show_more_url: tutorials-archive.html
 
   # - title: Resources
   #   post_list:
@@ -58,6 +58,10 @@ entries:
   #         - title: example page
   #           url: about  
 
+  - title: github
+    url: https://github.com/DavidDragan1
+
   - title: rss
     url: feed.xml
+
   
