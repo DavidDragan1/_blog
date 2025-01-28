@@ -3,10 +3,10 @@
 entries:
   - title: About
     entries:
+      - title: About
+        url: about.md
       - title: Personal website
         url: https://daviddragan1.github.io/dd.com/
-      - title: Github
-        url: https://github.com/daviddragan1
 
   - title: Latest Posts
     post_list:
