@@ -1,0 +1,5 @@
+{
+  "folder": "/",
+  "template": "Templates/{{date}}-Obsidian-Template",
+  "autorun": true
+}
