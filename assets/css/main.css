@@ -23,7 +23,7 @@
 body {
 	margin: 0;
 	color: var(--color-text);
-	font-family: "JetBrains Mono", monospace;
+	font-family: "Jetbrains Mono", monospace;
 	font-weight: 300;
 	font-optical-sizing: auto;
 	text-transform: lowercase;
@@ -233,7 +233,7 @@ html {
 
 body {
   color: black;
-  font-family: monospace;
+  font-family: "Jetbrains Mono", monospace;
   font-size: 16px;
   line-height: 1.4;
   margin: 0;
@@ -325,18 +325,6 @@ ul {
 }
 
 
-/* 
-li {
-  padding-left: 1em;
-  text-indent: -1em;
-}
-
-*/
-
-/* li:before {
-  content: "/";
-  padding-right: 5px;
-} */
 
 @media (max-width: 530px) {
 	:root {
