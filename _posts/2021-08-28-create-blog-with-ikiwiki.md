@@ -4,6 +4,12 @@ category: tutorials
 slug: Create a blog with ikiwiki
 ---
 
+> THIS IS NOT MY POST
+> this post was part of the jekyll boilerplate i used for the base of the blog, on top of which i built my cutom frontend and obsidian intergration.
+> I'm leaving it for now - although i wasnt coding back then (i was in diapers), its evocative of early 2000s websites and so im keeping it for the retro vibes
+
+
+
 # Setup Ikiwiki with docker thttpd 
 
 ## Installation on Ubuntu or Debian
