@@ -11,12 +11,14 @@
             "id": "95fb036ab7a631d7",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20250221165002.png"
+                "file": "2025-02-21-Automated-Commits-Obsidian.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250221165002"
+              "icon": "lucide-file",
+              "title": "2025-02-21-Automated-Commits-Obsidian"
             }
           }
         ]
@@ -148,13 +150,23 @@
               "icon": "lucide-list",
               "title": "Outline of 2025-02-16-Obsidian"
             }
+          },
+          {
+            "id": "cde593e54249294a",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,11 +179,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4a9297a342f2bd46",
+  "active": "95fb036ab7a631d7",
   "lastOpenFiles": [
+    "2025-02-21.md",
     "Pasted image 20250221165002.png",
     "2025-02-21-Automated-Commits-Obsidian.md",
-    "2025-02-21.md",
     "2025-02-16-Obsidian.md",
     "2021-08-28-create-blog-with-ikiwiki.md",
     "2019-08-09-how-to-know-your-public-ip.md",
