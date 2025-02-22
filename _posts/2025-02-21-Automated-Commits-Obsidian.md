@@ -17,8 +17,12 @@ For automatically creating a new template upon opening Obsidian:
 - settings > templates > set Template folder location: \<Your Templates Folder>
 
 Folder should look like this:
-<img src="/images/ss_templates-date.png">
-"\{{date}}" is automatically replaced with current date in your selected format.
+```
+Templates
+  {{date}}-Obsidian-Template
+
+// "{{date}}" is automatically replaced with current date in your selected format.
+```
 
 For automatically committing and pushing to git origin remote after 10 mins of inactivity after *ctrl+s* ing, I highly recommend you download the "git" plugin from Obsidian Community plugins. 
 
