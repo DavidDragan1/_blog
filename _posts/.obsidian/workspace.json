@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-02-22-Duct-Tape-Programmers.md",
+                "file": "2025-02-22.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-22-Duct-Tape-Programmers"
+              "title": "2025-02-22"
             }
           }
         ]
@@ -181,10 +181,11 @@
   },
   "active": "95fb036ab7a631d7",
   "lastOpenFiles": [
+    "2025-02-22-Duct-Tape-Programmers.md",
+    "2025-02-22.md",
     "2025-02-21-Automated-Commits-Obsidian.md",
     "images/ss_templates-date.png",
     "images",
-    "2025-02-22-Duct-Tape-Programmers.md",
     "2025-02-21.md",
     "2025-02-16-Obsidian.md",
     "2021-08-28-create-blog-with-ikiwiki.md",
