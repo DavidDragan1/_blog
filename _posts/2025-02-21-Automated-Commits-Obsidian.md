@@ -3,7 +3,7 @@ layout: post
 category: projects
 slug: Automated Commits in Obsidian
 ---
-I mentioned in the previous post about ^<a href="https://daviddragan1.github.io/_blog/automated-commits-in-obsidian.html">my migration to Obsidian</a>^ that although the new workflow with Obsidian is drastically faster than that of manual commits from an IDE, I'd still find a way to make it even more streamlined and that I'd share it on here if I did so successfully. 
+I mentioned in the previous post about <a href="https://daviddragan1.github.io/_blog/obsidian.html">my migration to Obsidian</a> that although the new workflow with Obsidian is drastically faster than that of manual commits from an IDE, I'd still find a way to make it even more streamlined and that I'd share it on here if I did so successfully. 
 
 Alas, my process now is:
 - double-click obsidian shortcut (new template automatically opens)
