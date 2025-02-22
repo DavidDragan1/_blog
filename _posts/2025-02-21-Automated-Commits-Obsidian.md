@@ -19,9 +19,9 @@ For automatically creating a new template upon opening Obsidian:
 Folder should look like this:
 ```
 Templates
-  {{date}}-Obsidian-Template
+  {% raw %}{{date}}{% endraw %}-Obsidian-Template
 
-// "{{date}}" is automatically replaced with current date in your selected format.
+// "{% raw %}{{date}}{% endraw %}" is automatically replaced with current date in your selected format.
 ```
 
 For automatically committing and pushing to git origin remote after 10 mins of inactivity after *ctrl+s* ing, I highly recommend you download the "git" plugin from Obsidian Community plugins. 
