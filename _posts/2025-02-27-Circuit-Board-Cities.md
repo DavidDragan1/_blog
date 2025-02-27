@@ -9,6 +9,7 @@ Grid cities have that dystopian, utilitarian feel. They make you feel like an an
 
 <img src="../images/circuitboardcity.jpeg" />
 
-In fact, roads act like traces - designated channels for traffic to flow through, carrying people and other needed items to and from buildings, which themselves may be likened to each component on a circuit board. For instance, a capacitor temporarily stores a charge of electrons - is a high-rise apartment complex not then just the same but for people? Temporarily storing people until they need to go somewhere else to do some useful work. 
+In fact, roads act like traces - designated channels for traffic to flow through, carrying people and other needed items to and from buildings, which themselves may be likened to each component on a circuit board. For instance, a capacitor temporarily stores a charge of electrons - is a high-rise apartment complex not then just the same but for people - temporarily storing people until they need to go somewhere else to do some useful work?
 
-microcosm in macrocosm - fractals, phone in the mirror
+Although they don't offer much in terms of architecture, they do, at least for me, offer a profound insight into perspectivism. 
+
