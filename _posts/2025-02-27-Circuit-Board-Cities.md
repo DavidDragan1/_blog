@@ -7,7 +7,7 @@ Grid cities have that dystopian, utilitarian feel. They make you feel like an an
 
 "Circuit board cities" offer much the same, but taken to the extreme. One can readily deduce the reasoning behind the designation, they *literally* look like circuit boards, and act much the same too.
 
-<img src="../images/circuitboardcity.jpeg" />
+<img src="assets/circuitboardcity.jpeg" />
 
 In fact, roads act like traces - designated channels for traffic to flow through, carrying people and other essential items to and from buildings, which themselves can be likened to individual components on a circuit board. For instance, just as a capacitor temporarily stores a charge of electrons, a high-rise apartment complex functions as a holding area, briefly sheltering its inhabitants until they are needed elsewhere to fulfil a particular role.
 
