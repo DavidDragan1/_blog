@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-02-28.md",
+                "file": "2025-02-27-Circuit-Board-Cities.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-28"
+              "title": "2025-02-27-Circuit-Board-Cities"
             }
           }
         ]
@@ -181,8 +181,9 @@
   },
   "active": "95fb036ab7a631d7",
   "lastOpenFiles": [
-    "2025-02-27-Circuit-Board-Cities.md",
     "2025-02-28.md",
+    "2025-02-28-Warp.md",
+    "2025-02-27-Circuit-Board-Cities.md",
     "images/circuitboardcity.jpg",
     "images/ss_templates-date.png",
     "2025-02-26-Chess.md",
