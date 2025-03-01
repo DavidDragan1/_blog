@@ -25,4 +25,4 @@ As it all heated and bubbled, the third proclaimed, “This will be delicious. A
 “And to think,” marvelled the villagers, “how magical that such a soup was made from just a few stones!”
 
 ---
-I read this in an article featured on [Hacker News](https://news.ycombinator.com/) , and thought I'd rewire it with a touch more flair. Anyhow it offers a crafty insight into human psychology and the art of persuasion, and I found it a lesson worth saving for later.
+I read this in an article featured on [Hacker News](https://news.ycombinator.com/) , and thought I'd rewrite it with a touch more flair. Anyhow it offers a crafty insight into human psychology and the art of persuasion, and I found it a lesson worth saving for later.
