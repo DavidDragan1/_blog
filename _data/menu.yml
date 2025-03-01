@@ -4,7 +4,7 @@ entries:
   - title: About
     entries:
       - title: About
-        url: about.md
+        url: about.html
       - title: Personal website
         url: https://daviddragan1.github.io/dd.com/
 
@@ -29,12 +29,12 @@ entries:
       show_more_text: See more posts...
       show_more_url: muse-archive.html
 
-  - title: Tutorials
+  - title: Fables
     post_list:
-      category: tutorials
+      category: fables
       show_more: true
       show_more_text: See more posts...
-      show_more_url: tutorials-archive.html
+      show_more_url: fables-archive.html
 
   # - title: Resources
   #   post_list:

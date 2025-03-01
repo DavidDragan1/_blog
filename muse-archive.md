@@ -1,5 +1,5 @@
 ---
 layout: archive
 which_category: Musings
-title: Post of category `Musings`
+title: Posts of category `Musings`
 ---
