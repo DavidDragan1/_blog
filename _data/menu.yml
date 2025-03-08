@@ -36,12 +36,12 @@ entries:
       show_more_text: See more posts...
       show_more_url: fables-archive.html
 
-  # - title: Resources
-  #   post_list:
-  #     category: chuletas
-  #     show_more: true
-  #     show_more_text: See more posts...
-  #     show_more_url: example2-archive.html
+  - title: Amphigory
+    post_list:
+      category: amphigory
+      show_more: true
+      show_more_text: See more posts...
+      show_more_url: amphigory.html
 
   # - title: Software Architecture
   #   post_list:
