@@ -181,8 +181,9 @@
   },
   "active": "e5c870e8369fd9e6",
   "lastOpenFiles": [
-    "2025-03-12-Adversity.md",
+    "2025-05-23.md",
     "2025-04-12-Checking-In.md",
+    "2025-03-12-Adversity.md",
     "2025-03-13-Of-Liberty-and-Peace.md",
     "2025-03-08-S-Robots.md",
     "2025-03-08.md",
@@ -209,7 +210,6 @@
     "Templates/{{date}}-Obsidian-Template.md",
     "2025-02-19-Generator.md",
     "Templates/Obsidian-Template.md",
-    "2021-12-21-Serve-local-folder-as-website.md",
     "Templates"
   ]
 }
